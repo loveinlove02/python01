@@ -328,7 +328,7 @@ aList.remove('c')
 
 <br/>
 
-emove() 메소드의 예제입니다.  
+remove() 메소드의 예제입니다.  
 데이터 20을 리스트에서 삭제합니다.  
 
 ```python
