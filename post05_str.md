@@ -397,8 +397,8 @@ text2 = '123'
 text3 = 'ABC'
 text4 = 'abc'
 
-print(text1.isalpha())     # 알파벳으로만 이루어졌는가
-print(text1.isdigit())      # 숫자문자열로만 이루어졌는가
+print(text1.isalpha())    # 알파벳으로만 이루어졌는가
+print(text1.isdigit())    # 숫자문자열로만 이루어졌는가
 print(text1.isalnum())    # 알파벳과 숫자문자열로 이루어졌는가
 print(text1.isupper())    # 대문자인가
 print(text1.islower())    # 소문자인가
