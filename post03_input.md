@@ -40,6 +40,8 @@ print(a)    # str
 
 ### ***타입을 출력해보기***   
 
+<br/>
+
 ```python
 a = input('이름: ')
 print(a)
