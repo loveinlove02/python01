@@ -90,6 +90,8 @@ c는 hello 입니다
 float - %f  
 str   - %s  
 
+<br/>
+
 ```python
 print('' %() )
 ```   
