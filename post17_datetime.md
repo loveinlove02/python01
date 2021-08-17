@@ -7,6 +7,8 @@ title:  "16 datetime"
 
 ## **datetime 패키지**  
 
+<br/>
+
 1. 날짜와 시간을 함께 저장하는 datetime 클래스  
 2. 날짜만 저장하는 date 클래스  
 3. 시간만 저장하는 time 클래스  
