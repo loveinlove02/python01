@@ -196,7 +196,7 @@ print('평균:', res2)
 
 >## **4 지역변수와 전역변수**
 
-<br/>
+<br/><br/>
 
 >### **지역변수**  
 <br/>
@@ -223,14 +223,14 @@ def func():
 # main
 print('여기서 시작')
 func()
-print(a)    # a는 지역변수. 에러발생
+print(a)       # a는 지역변수. 에러발생
 ```  
 
 ```
 여기서 시작
 10
 
-print(a)    # a는 지역변수. 에러발생
+print(a)       # a는 지역변수. 에러발생
 NameError: name 'a' is not defined
 ```  
 
@@ -243,13 +243,13 @@ NameError: name 'a' is not defined
 
 ```python
 def func():
-    a = 10      # 지역변수
+    a = 10           # 지역변수
     print('a', a)
     print('x', x)    # 전역변수 x 사용가능
 
 # main
 print('여기서 시작')
-x = 10      # 전역변수. 어디에서나 사용가능
+x = 10               # 전역변수. 어디에서나 사용가능
 print('x', x)
 func()
 ```  
@@ -488,7 +488,7 @@ height: 3
 
 
 
-### **가변개수의 인수를 받을수 있는 매개변수(*args)**  
+### **가변개수의 인수를 받을수 있는 매개변수**  
 <br/>
 
 
