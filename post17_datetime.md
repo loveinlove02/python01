@@ -292,3 +292,51 @@ print(today.isoweekday())
 1
 2
 ```  
+
+<br/><br/>
+
+> ## **3 time 클래스**  
+<br/><br/>
+
+time 클래스는 시간을 표현하기 위해서 사용됩니다.
+
+<br/>
+
+time 클래스의 생성자는 시, 분, 초, 마이크로 초, 시간대를 인자로 받습니다.  
+모든 인자가 필수 인자가 아니며, 생략할 경우, 0이 기본값으로 사용됩니다.  
+<br/>
+
+
+```python
+import datetime
+
+t = datetime.time(17, 0, 0)
+print(t)
+```
+
+```
+17:00:00
+```  
+
+<br/><br/>
+
+time 객체가 보관하고 있는 시, 분, 초 데이터는 각각 hour, minute, second 속성을 통해 접근할 수 있습니다.  
+<br/>
+
+
+```python
+import datetime
+
+t = datetime.time(17, 23, 22)
+print(t.hour)
+print(t.minute)
+print(t.second)
+```
+
+```
+17
+23
+22
+```  
+
+<br/>
