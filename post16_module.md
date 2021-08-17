@@ -277,7 +277,7 @@ import 뒤에 *을 붙이면 함수 이름을 지정하지 않고 calc.py 에 �
 <br/><br/>
 
 ```python
-from libs.math.calc import sub
+from libs.math.calc import *
 
 result = sub(5,7)
 print(result)
