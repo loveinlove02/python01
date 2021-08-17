@@ -208,10 +208,10 @@ libs 디렉터리 아래에 역할별로 패키지를 만들겠습니다.
 <br/>
 
 파일 이름은 calc 로 입력합니다.    
-<img src="image/module12.png">  
-<br/>
+<img src="image/module12.png">
+<br/>  
 
-calc.py 가 생성되었습니다.
+calc.py 가 생성되었습니다.  
 <img src="image/module13.png">
 <br/>
 
